@@ -7,6 +7,7 @@ TravelRAG is a smart and intuitive mobile application that helps users plan thei
 - 🧳 **Conversational Travel Planning**: Chat with an AI assistant that recommends travel destinations and information based on real brochures.
 - 📄 **Contextual Answers from Real Data**: Retrieves and uses content from actual PDF brochures.
 - 🔐 **Simple, Private Interaction**: No login or account creation required — just ask and plan.
+- ⚙️ **Modern State Management with Riverpod**: Manages app state using `flutter_riverpod` for scalability and testability.
 - 📱 **Cross-Platform**: Built using Flutter, the app runs smoothly on both Android and iOS devices.
 
 ## 🧠 Use of Azure AI
@@ -28,20 +29,18 @@ This allows the app to deliver accurate, real-time answers grounded in brochure-
 
 ## 🧱 Tech Stack
 
-| Layer     | Technology                |
-|-----------|---------------------------|
-| Frontend  | Flutter, Dart             |
-| Backend   | Python, Flask             |
-| AI Models | Azure AI Studio (text-embedding-ada-002, gpt-4o) |
-| Data      | PDF Brochures             |
-| Tools     | VS Code, Postman, Pycharm |
-
+| Layer      | Technology                                                |
+|------------|-----------------------------------------------------------|
+| Frontend   | Flutter, Dart                                             |
+| State Mgmt | Riverpod (`flutter_riverpod`)                             |
+| Backend    | Python, Flask                                             |
+| AI Models  | Azure AI Studio (text-embedding-ada-002, gpt-4o)          |
+| Data       | PDF Brochures                                             |
+| Tools      | VS Code, Postman, PyCharm,                |
 
 ## 🚫 Notes
 
 - Sensitive keys and endpoints have been removed from the `.env` file and are **not** tracked by Git.
-- This project is complete and currently has **no planned updates**.
-
 ---
 
-
+Built using Flutter, Flask, Azure AI, and Riverpod.
