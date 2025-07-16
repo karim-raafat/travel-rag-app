@@ -18,9 +18,8 @@ This application integrates Microsoft’s **Azure AI Studio** to power an intell
 
 The Flask backend performs:
 
-1. PDF preprocessing and indexing into a vector store using Azure Embeddings  
-2. Retrieval of relevant chunks based on user input  
-3. Contextual response generation with `gpt-4o`  
+1. Retrieval of relevant chunks based on user input  
+2. Contextual response generation with `gpt-4o`  
 
 This allows the app to deliver accurate, real-time answers grounded in brochure-based travel data.
 
@@ -35,21 +34,7 @@ This allows the app to deliver accurate, real-time answers grounded in brochure-
 | Backend   | Python, Flask             |
 | AI Models | Azure AI Studio (text-embedding-ada-002, gpt-4o) |
 | Data      | PDF Brochures             |
-| Tools     | Android Studio, Postman   |
-
-## 📁 Project Structure
-travel_rag_app/
-├── travel-rag-backend/ # Python Flask backend
-│ ├── app.py
-│ ├── vector_indexing.py
-│ ├── .env # Environment file (excluded from Git)
-│ └── ...
-├── travel_rag_flutter/ # Flutter mobile app
-│ ├── lib/
-│ ├── android/
-│ ├── ios/
-│ └── ...
-└── README.md
+| Tools     | VS Code, Postman, Pycharm |
 
 
 ## 🚫 Notes
