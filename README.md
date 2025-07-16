@@ -38,4 +38,25 @@ This allows the app to deliver accurate, real-time answers grounded in brochure-
 | Tools     | Android Studio, Postman   |
 
 ## 📁 Project Structure
+travel_rag_app/
+├── travel-rag-backend/ # Python Flask backend
+│ ├── app.py
+│ ├── vector_indexing.py
+│ ├── .env # Environment file (excluded from Git)
+│ └── ...
+├── travel_rag_flutter/ # Flutter mobile app
+│ ├── lib/
+│ ├── android/
+│ ├── ios/
+│ └── ...
+└── README.md
+
+
+## 🚫 Notes
+
+- Sensitive keys and endpoints have been removed from the `.env` file and are **not** tracked by Git.
+- This project is complete and currently has **no planned updates**.
+
+---
+
 
