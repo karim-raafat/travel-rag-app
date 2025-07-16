@@ -11,6 +11,7 @@ class ChatField extends StatelessWidget {
       children: [
         Expanded(
           child: TextField(
+            style: const TextStyle(color: Colors.white),
             controller: controller,
             onSubmitted: (value) => onSubmitted(value),
             decoration: InputDecoration(
